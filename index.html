@@ -110,7 +110,54 @@
             </div>
           </div>
         </section>
-        <section class="formulario" id="reservar"></section>
+        <section class="reservation" id="reservar">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <span class="form__fieldset_span"
+                  ><label class="form__label">Nome *</label>
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Nome"
+                    required
+                /></span>
+
+                  ><label class="form__label">Número de convidados *</label>
+                  <input
+                    class="form__input"
+                    type="number"
+                    placeholder="1-8"
+                    required
+                /></span>
+                <span class="form__fieldset_span"
+                  ><label class="form__label">Data & hora *</label>
+                  <input class="form__input" type="datetime-local" required
+                /></span>
+                <span class="form__fieldset_span"
+                  ><label class="form__label">Seu e-mail *</label>
+                  <input
+                    class="form__input"
+                    type="email"
+                    placeholder="email@email.com"
+                    required
+                /></span>
+              </fieldset>
+              <button class="form__button" type="submit">
+                Reservar uma mesa
+              </button>
+              <fieldset class="form__fieldset">
+                <label class="form__label form__label_checkbox">
+                  <input class="form__input form__input_box" type="checkbox" />
+                  <label class="form__label"
+                    >Eu concordo com os termos de uso</label
+                  >
+                </label>
+              </fieldset>
+            </form>
+          </div>
+        </section>
         <section class="cardapio" id="menu"></section>
         <section class="sobre" id="contatos"></section>
       </main>
