@@ -254,7 +254,7 @@
   line-height: 20px;
 }
 
-.form__label_checkbox {
+.form__span_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
