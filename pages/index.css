@@ -246,6 +246,7 @@
 
 .form__label {
   display: flex;
+  flex-direction: column;
   padding-bottom: 8px;
   font-family: "Inter";
   font-style: normal;
