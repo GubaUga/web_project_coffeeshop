@@ -207,9 +207,13 @@
   line-height: 52px;
 }
 
+.reservation__form {
+  margin: auto;
+}
+
 .form {
   max-width: 385px;
-  margin: auto;
+  width: 100%;
   padding-bottom: 120px;
 }
 
@@ -236,6 +240,8 @@
   width: 20px;
   height: 20px;
   padding-right: 12px;
+  background-color: #2f80ed;
+  background-image: url(./../images/check.svg);
 }
 
 .form__input::-webkit-input-placeholder {
