@@ -6,6 +6,8 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .menu__title {
@@ -13,8 +15,7 @@
   align-self: center;
   max-width: 800px;
   padding-top: 100px;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -25,8 +26,6 @@
   max-width: 800px;
   margin: 0 0 100px 0;
   font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
