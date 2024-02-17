@@ -1,0 +1,28 @@
+.card {
+  width: 540px;
+}
+
+.card:nth-last-of-type(3n + 1) {
+  margin-bottom: 100px;
+}
+
+.card__title {
+  margin: 0 0 32px 0;
+}
+
+.card__content {
+  list-style: none;
+  padding: 0;
+}
+
+.card__list-item {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #838383;
+}
