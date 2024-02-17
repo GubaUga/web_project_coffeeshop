@@ -61,6 +61,6 @@
   color: #fff;
 }
 
-.form__button:focus {
+.form__button:hover {
   opacity: 70%;
 }

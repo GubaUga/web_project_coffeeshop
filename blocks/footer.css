@@ -37,10 +37,17 @@
   font-family: "Inter", "Arial", sans-serif;
   align-items: center;
   justify-content: flex-start;
+  padding-bottom: 16px;
 }
 
 .footer__social-link {
+  color: #fff;
+  text-decoration: none;
   order: 1;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
